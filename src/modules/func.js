@@ -1,22 +1,11 @@
+import { getScores } from './api.js';
+
 const recentScoresList = document.querySelector('.recent-scores-list');
 const inputName = document.querySelector('input[name="name"]');
 const inputScore = document.querySelector('input[name="score"]');
 
-const score1 = { user: 'Leslie', score: 332 };
-const score2 = { user: 'Leslie', score: 332 };
-
-const refreshScores = () => {
-  const scores = [
-    {
-      user: score1.user,
-      score: score1.score,
-    },
-    {
-      user: score2.user,
-      score: score2.score,
-    },
-
-  ];
+const refreshScores = async () => {
+  const scores = await getScores();
 
   recentScoresList.innerHTML = '';
 
