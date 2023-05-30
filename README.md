@@ -108,7 +108,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-we would like to thank microverse inc for the awesome challenge.
+I would like to thank microverse inc for the awesome challenge.
 - 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
